@@ -9,9 +9,9 @@ def P1():
     parity(int(input("Enter the Number: ")))
 def P2():
     def table(c):
-        i = 1
+        x = 1
         while (i<=10):
-            print(f"{c} × {i} = {c * i}")
+            print(f"{c} × {x} = {c * x}")
             i += 1
     table(int(input("Enter the Number: ")))
 def P3():

@@ -10,9 +10,9 @@ def P1():
 def P2():
     def table(c):
         x = 1
-        while (i<=10):
+        while (x<=10):
             print(f"{c} × {x} = {c * x}")
-            i += 1
+            x += 1
     table(int(input("Enter the Number: ")))
 def P3():
     d = i(float(input("Enter first Number: ")))
@@ -24,7 +24,7 @@ def P4():
     print(f"Area of rectangle with length {f} and breadth {g} is {i(f * g)}.")
 def P5():
     h = i(float(input("Enter the Number: ")))
-    print(f"Square of {h} is {h**2}.\nCube of {h} is {h ** 3}.")
+    print(f"Square of {h} is {h ** 2}.\nCube of {h} is {h ** 3}.")
 P1()
 P2()
 P3()
